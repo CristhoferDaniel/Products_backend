@@ -36,3 +36,16 @@ se creara la base de datos segun el modelo
 ejecutar el proyecto 
 ![image](https://github.com/user-attachments/assets/76157a94-f680-4244-809c-f38df97f0c51)
 
+
+El proyecto sigue una estructura organizada que incluye los siguientes directorios:
+
+Context: Contiene la clase de contexto de Entity Framework Core (DbContext) donde se define la configuración de las entidades y las relaciones.
+
+Controllers: Contiene controladores de API REST para manejar las solicitudes HTTP y las respuestas relacionadas con los recursos del proyecto.
+
+Models: Contiene las clases de modelos que representan las entidades de la base de datos.
+
+Migrations: Contiene las migraciones de base de datos generadas por Entity Framework Core para actualizar el esquema de la base de datos según los cambios en el modelo.
+
+
+
